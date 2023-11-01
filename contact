@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="one">
+        <div style="display: inline-flex;">
+            <h2 id="username" style="font-size: larger; text-align: left; padding-left: 5%; padding-bottom: 4%;">User</h2>
+            <img src="personicon.png" style="padding-left: 180%;" height="50px">
+        </div>
+        <hr style="height: 2px;">
+        <a href="Home.html"><h4>Home</h4></a>
+        <hr>
+        <a href="Locations.html"><h4>Locations</h4></a>
+        <hr>
+        <a href="Book.html"><h4>Book a Slot</h4></a>
+        <hr>
+        <a href="Contact.html"><h4>Contact</h4></a>
+    </div>
+    <div class="two" style="border: 5px green solid;">
+        <h3 style="margin-bottom: 5%;">Contact Us</h3>
+        <p>Phone no: +91 22 2407 27 29</p>
+        <p>Address: Plot no. 5, Jain Society, Sion West, Mumbai, Mh-400022, India</p>
+        <br>
+        <form id="myForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="help">How can we help you?</label>
+            <input type="text" id="help" name="help" required style="height: 50px; width: 500px;">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        <img src="social.jpeg" style="margin-left: 25%; margin-top: 2%;">
+        <script>
+            document.getElementById("myForm").addEventListener("submit", function(event) {
+                var username = document.getElementById("username").value;
+                var email = document.getElementById("email").value;
+                var email = document.getElementById("help").value;
+                if (username === "" || email === "" || help ==== "") {
+                    alert("Please fill out all required fields.");
+                    event.preventDefault(); // Prevent the form from submitting
+                }
+            });
+        </script>
+    </div>
+</body>
+</html>
