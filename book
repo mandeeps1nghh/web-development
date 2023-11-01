@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        form{
+            border-style: solid;
+            border-color: green;
+            border-width: 5px;
+            margin-right: 2%;
+            margin-left: 2%;
+            text-align: left;
+        }      
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div style="display: inline-flex;">
+            <h2 id="username" style="font-size: larger; text-align: left; padding-left: 5%; padding-bottom: 4%;">User</h2>
+            <img src="personicon.png" style="padding-left: 180%;" height="50px">
+        </div>
+        <hr style="height: 2px;">
+        <a href="Home.html"><h4>Home</h4></a>
+        <hr>
+        <a href="Locations.html"><h4>Locations</h4></a>
+        <hr>
+        <a href="Book.html"><h4>Book a Slot</h4></a>
+        <hr>
+        <a href="Contact.html"><h4>Contact</h4></a>
+    </div>
+    <div class="two">
+        <form>
+            <h2 style="margin-bottom: 0%;"><u>Book a Slot</u></h2>
+            <p style="margin-bottom: 3%;"><u>Fill your and your vehicle's information to book a slot to charge you vehicle</u></p>
+            <label for="UserName">
+                <p id="UserName" style="margin-left: 2%; margin-bottom: 0%; text-align: left;">Name</p>
+                <input type="text" id="UserName" name="UserName" size="50">
+            </label>
+            <label for="Vehicle">
+                <p id="Vehicle" style="margin-left: 2%; margin-bottom: 0%; text-align: left;">Vehicle</p>
+                <select name="Vehicle" id="Vehicle" style="margin-left: 3%; background-color: green; color: white; border-radius: 10px; margin-bottom: 2%;">
+                    <option value="Tata Nexon EV">Tata Nexon EV</option>
+                    <option value="Mahindra e2o">Mahindra e2o</option>
+                    <option value="Mahindra eVerito">Mahindra eVerito</option>
+                    <option value="Hyundai Kona Electric">Hyundai Kona Electric</option>
+                    <option value="MG ZS EV">MG ZS EV</option>
+                    <option value="Nissan Leaf">Nissan Leaf</option>
+                    <option value="Mercedes-Benz EQC">Mercedes-Benz EQC</option>
+                    <option value="Audi e-tron">Audi e-tron</option>
+                    <option value="Jaguar I-PACE">Jaguar I-PACE</option>
+                    <option value="BMW i3s">BMW i3s</option>
+                    <option value="BMW i8">BMW i8</option>
+                    <option value="Porsche Taycan">Porsche Taycan</option>
+                </select>
+            </label>
+            <label for="Time">
+                <p id="Start Time" style="margin-left: 2%; margin-bottom: 0%; text-align: left;">Select a Time Slot:</p>
+                <div style="display: inline;">
+                    <label for="Start Time" style="margin-left: 2%; text-align: left;">Start Time:</label>
+                    <select name="Start Time" id="Start Time" style="background-color: green; border-radius: 10px; color: white; margin-bottom: 2%;">
+                        <option value="12">12</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                    </select>
+                    <label for="End Time" style="margin-left: 5%; text-align: left;">End Time:</label>
+                    <select name="End Time" id="End Time" style="background-color: green; border-radius: 10px; color: white;">
+                        <option value="12">12</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                    </select>
+                    <select name="Time" id="Time" style="background-color: green; color: white; border-radius: 10px; margin-left: 5%;">
+                        <option value="AM">AM</option>
+                        <option value="PM">PM</option>
+                    </select>
+                </div>
+            </label>
+            <br>
+            <label for="loc">
+                <p id="loc" style="margin-left: 2%; margin-bottom: 0%; text-align: left;">Your Location</p>
+                <input type="text" id="UserName" name="UserName" size="90" style="margin-bottom: 5%;">
+            </label>
+            <br>
+            <a href="Confirm.html">
+                <input type="button" id="Submit" value="Submit" name="Submit"  style="background-color: green; color: white; border-radius: 50%; margin-left: 2%; margin-bottom: 2.5%;">
+            </a>
+        </form>
+    </div>
+</body>
+</html>
