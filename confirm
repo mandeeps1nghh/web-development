@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        img{
+            float: right;
+        }
+        h1{
+            float: center;
+            font-size: 55px;
+            margin-top: 2%;
+            margin-bottom: 3%;
+        }
+        p{
+            text-align: left;
+            color: green;
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="QR.png" height="450px">
+        <h1><u>Confirmation</u></h1>
+        <p>Scan the QR for futher details about your slot booked for a charging point at your nearest Electric Vehicle Charging Station</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p id="current-time" style="text-align: right; margin-top: 0%;"></p>
+        <script>
+            function displayCurrentTime() {
+            var currentDate = new Date();
+            var currentTimeString = currentDate.toLocaleTimeString();
+            document.getElementById("current-time").textContent = "Time of Booking: " + currentTimeString;
+            }
+            displayCurrentTime();
+        </script>    
+    </div>
+    <br>
+</body>
+</html>
