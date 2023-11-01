@@ -1,0 +1,78 @@
+*{
+  text-align: center;
+  font-family: cursive;
+}
+
+#logo{
+  margin-top: 10%;
+}
+
+h1{
+  color: green;
+}
+
+h3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: green;
+  color: white;
+}
+
+h4{
+  color: white;
+}
+
+input{
+  background-color: green;
+  color: white;
+}
+
+label{
+  color: green;
+}
+
+div{
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.one{
+    background-color:green;    
+    float: left; 
+    width: 25%;
+    height: 595px;
+    color: white;
+}
+
+.two{
+    background-color:white;
+    float: right;
+    height: 595px;
+    width: 73%;
+    color: green;
+    text-align: left;
+}
+
+h3.two{
+  color: green;
+  background-color: white;
+}
+
+a{
+  text-decoration-line: none;
+}
+
+footer{
+  padding-top: 240px;
+  font-size: 20px;
+}
+
+input{
+  margin-left: 2%;
+  margin-bottom: 2%;
+  border-radius: 10px;
+} 
