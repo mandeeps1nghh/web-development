@@ -1,0 +1,29 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="one">
+        <div style="display: inline-flex;">
+            <h2 id="username" style="font-size: larger; text-align: left; padding-left: 5%; padding-bottom: 4%;">User</h2>
+            <img src="personicon.png" style="padding-left: 180%;" height="50px">
+        </div>
+        <hr style="height: 2px;">
+        <a href="Home.html"><h4>Home</h4></a>
+        <hr>
+        <a href="Locations.html"><h4>Locations</h4></a>
+        <hr>
+        <a href="Book.html"><h4>Book a Slot</h4></a>
+        <hr>
+        <a href="Contact.html"><h4>Contact</h4></a>
+    </div>
+    <div class="two">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1zqHdj5SRjQ0Yq24wwsxvABnQyYdqsmQ&ehbc=2E312F" width="970" height="595"></iframe>
+    </div>
+</body>
+</html>
+
