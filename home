@@ -1,0 +1,44 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="one">
+        <div style="display: inline-flex;">
+            <h2 id="username" style="font-size: larger; text-align: left; padding-left: 5%; padding-bottom: 4%;">User</h2>
+            <img src="personicon.png" style="padding-left: 180%;" height="50px">
+        </div>
+        <hr style="height: 2px;">
+        <a href="Home.html"><h4>Home</h4></a>
+        <hr>
+        <a href="Locations.html"><h4>Locations</h4></a>
+        <hr>
+        <a href="Book.html"><h4>Book a Slot</h4></a>
+        <hr>
+        <a href="Contact.html"><h4>Contact</h4></a>
+    </div>
+    <div class="two">
+        <h3 style="margin-bottom: 0%;">Electric Vehicle's Chargeing Points</h3>
+        <br>
+        <div>
+            <dl>Electric vehicles (EVs) are environmentally friendly, producing zero emissions. They offer lower operating costs due to reduced fuel and maintenance expenses. EVs are highly energy-efficient, with regenerative braking technology. Government incentives and technological advancements are driving their adoption worldwide.</dl>
+            <dt>Environmentally Friendly</dt>
+            <dt>Zero Emissions</dt>
+            <dt>High Efficiency</dt>
+            <dt>Regenerative Braking</dt>
+            <dt>Lower Operating Costs</dt>
+            <dt>Lower Fuel Costs</dt>
+            <dt>Reduced Maintenance</dt>
+            <dt>Quiet and Smooth Operation<dt>
+            <dt>Government Incentives</dt>
+            <dt>Energy Security</dt>
+            <dt>Technological Advancements<dt>
+            <dt>Reduced Noise Pollution</dt>
+        </div>
+    </div>
+</body>
+</html>
